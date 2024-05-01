@@ -1,0 +1,27 @@
+.wightImg{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+}
+.wight{
+    height: 220px;
+    width: 220px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.img{
+    background-color: white;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.75);
+}
+.box{
+    flex-direction: column;
+    background-color: #F8F8F8;;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.75);
+}
+.flexRow{
+    flex-direction: row;
+}
