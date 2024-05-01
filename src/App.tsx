@@ -8,9 +8,9 @@ import Products from "./components/products/Products";
 const App:FC = () =>  {
   return (
       <>
-          {/*<Characters></Characters>*/}
-          {/*<Recipes></Recipes>*/}
-          <Products></Products>
+          {/*<Characters/>*/}
+          {/*<Recipes/>*/}
+          <Products/>
 
       </>
   );

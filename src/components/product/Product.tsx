@@ -33,7 +33,7 @@ const Product:FC<IProductPropsWithChildren> = ({
             <h1>{id} - {title} </h1>
             <p>{brand}</p>
             <div className={[styles.flexRow, styles.flex].join(' ')}> {
-                images.map((image, index) => <div className={[styles.img, styles.wight, styles.flex].join(' ')}><img className={styles.wightImg} key={index} src={image} alt={image}/></div>)
+                images.map((image, index) => <div key={image} className={[styles.img, styles.wight, styles.flex].join(' ')}><img className={styles.wightImg}  src={image} alt={image}/></div>)
             }</div>
             <p>{description}</p>
             <h3>Price - {price} usd</h3>

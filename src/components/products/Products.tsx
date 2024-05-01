@@ -3,27 +3,29 @@ import Product, {IProductProps} from "../product/Product";
 
 const Products = () => {
     const [products, setProducts] = useState<IProductProps[]>([]);
-    useEffect(()=>{
+    useEffect(() => {
         fetch('https://dummyjson.com/products')
             .then(res => res.json())
-            .then(({products}) =>{
+            .then(({products}) => {
                 setProducts(products)
             })
     }, []);
     return (
         <div>
             {
-                products.map((product =><Product id={product.id}
-                                                         title={product.title}
-                                                         description={product.description}
-                                                         price={product.price}
-                                                         discountPercentage={product.discountPercentage}
-                                                         rating={product.rating}
-                                                         stock={product.stock}
-                                                         brand={product.brand}
-                                                         category={product.category}
-                                                         thumbnail={product.thumbnail}
-                                                         images={product.images} />
+                products.map(((product, index) => <Product
+                        key={index}
+                        id={product.id}
+                        title={product.title}
+                        description={product.description}
+                        price={product.price}
+                        discountPercentage={product.discountPercentage}
+                        rating={product.rating}
+                        stock={product.stock}
+                        brand={product.brand}
+                        category={product.category}
+                        thumbnail={product.thumbnail}
+                        images={product.images}/>
                 ))
             }
         </div>
