@@ -5,7 +5,6 @@ interface IUserProps{
     user: IUserModel;
 }
 const UserComponent:FC<IUserProps> = ({user}) => {
-
     return (
         <div className={styles.userComponent}>
             <h2>{user.id} - {user.name}</h2>
