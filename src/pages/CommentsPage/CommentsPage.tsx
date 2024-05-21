@@ -6,7 +6,6 @@ import {useParams} from "react-router-dom";
 
 const CommentsPage = () => {
     const {postId} =useParams();
-    console.log(postId);
     const [comments, setComments] = useState<ICommentModel[]>([]);
     useEffect(() =>{
         if(postId) {
