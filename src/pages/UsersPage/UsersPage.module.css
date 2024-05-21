@@ -1,0 +1,12 @@
+.usersPage{
+    display: flex;
+    justify-content: flex-start;
+}
+.wight-25{
+    width: 25vw;
+    margin: 5px;
+}
+.wight-60{
+    width: 60vw;
+    margin: 5px;
+}

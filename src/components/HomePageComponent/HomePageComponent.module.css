@@ -1,0 +1,16 @@
+.homePageComponent{
+    margin: 20px;
+    padding: 20px;
+    color: silver;
+    border: 1px solid lightgray;
+}
+.homePageComponent a{
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 20px;
+}
+.homePageComponent a:hover{
+    color: forestgreen;
+    font-size: 25px;
+}

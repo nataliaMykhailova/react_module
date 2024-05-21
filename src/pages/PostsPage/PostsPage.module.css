@@ -1,0 +1,8 @@
+.postPage{
+    display: flex;
+    justify-content: flex-start;
+}
+.wight25{
+    width: 30vw;
+    margin: 5px;
+}

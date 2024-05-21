@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75px;
+    background-color: lightgray;
+}
+.header a{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+}
+.header a:hover{
+    color: lightblue;
+}
+.header a[class= 'active']{
+    color: cornflowerblue;
+}
