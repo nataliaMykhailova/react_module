@@ -1,0 +1,13 @@
+.homePage{
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.homePage button{
+    width: 30vw;
+    height: 40vh;
+    font-weight: bold;
+    font-size: 35px;
+
+}

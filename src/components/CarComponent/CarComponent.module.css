@@ -1,0 +1,8 @@
+.car{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+}
+.car button{
+    margin-right: 20px;
+}
