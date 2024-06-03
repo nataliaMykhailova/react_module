@@ -41,6 +41,7 @@ const CarsPage = () => {
             }
         }
     }
+
     useEffect(() => {
         getCarsData();
     }, [query, getCarsData]);
