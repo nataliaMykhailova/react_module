@@ -44,7 +44,7 @@ const CarsPage = () => {
 
     useEffect(() => {
         getCarsData();
-    }, [query, getCarsData]);
+    }, [query]);
     const handleCreateCar = async (createData:ICarWithAuthModel) => {
         const create = await carService.createCar(createData);
         if (create) {
