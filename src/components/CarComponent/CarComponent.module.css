@@ -1,0 +1,25 @@
+.container{
+    margin: 10px 20px;
+    background-color: silver;
+    border-radius: 20px;
+    font-family: Bahnschrift, sans-serif;
+    border: 3px solid gray;
+}
+.car{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.car h3{
+    margin: 0;
+    padding: 0;
+}
+.car button{
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 15px;
+}
+

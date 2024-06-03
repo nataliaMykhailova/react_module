@@ -1,0 +1,13 @@
+.pagComp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagComp button{
+    height: 50px;
+    width: 200px;
+    font-family: "Segoe Script", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px;
+}

@@ -1,0 +1,23 @@
+.authComp{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.authComp input{
+    margin: 50px;
+    padding: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Bahnschrift, sans-serif;
+}
+.authComp button{
+    height: 80px;
+    width: 200px;
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
