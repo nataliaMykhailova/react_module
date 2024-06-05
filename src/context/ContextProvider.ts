@@ -6,37 +6,33 @@ type StoreType = {
     usersStore:{
         allUsers: IUserModel[];
         setFavouriteUser:(obg:IUserModel)=>void;
+        favouriteUser: IUserModel | null;
     },
     postsStore:{
         allPosts: IPostModel[];
         setFavouritePost:(obg:IPostModel)=>void;
+        favouritePost: IPostModel | null;
     },
     commentsStore:{
         allComments: ICommentModel[];
         setFavouriteComment:(obg:ICommentModel)=>void;
-    },
-    favourites: {
-        favouriteUser: IUserModel | null;
-        favouritePost: IPostModel | null;
         favouriteComment: ICommentModel | null;
-    };
+    },
 }
 export const defaultValue:StoreType = {
     usersStore:{
         allUsers:[],
-        setFavouriteUser:()=>{}
+        setFavouriteUser:()=>{},
+        favouriteUser: null,
     },
     postsStore:{
         allPosts:[],
-        setFavouritePost:()=>{}
+        setFavouritePost:()=>{},
+        favouritePost: null,
     },
     commentsStore:{
         allComments:[],
-        setFavouriteComment:()=>{}
-    },
-    favourites: {
-        favouriteUser: null,
-        favouritePost: null,
+        setFavouriteComment:()=>{},
         favouriteComment: null
     }
 }

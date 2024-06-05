@@ -5,7 +5,7 @@ import {useContextProvider} from "../../context/ContextProvider";
 
 
 const HomePageComponent = () => {
-   const {favourites:{favouriteUser, favouritePost, favouriteComment}}=useContextProvider()
+   const {usersStore:{favouriteUser}, postsStore:{favouritePost}, commentsStore:{favouriteComment}}=useContextProvider()
     return (
         <div className={ccs.homeContainer}>
             <div>

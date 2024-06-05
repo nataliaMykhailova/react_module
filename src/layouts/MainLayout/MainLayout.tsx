@@ -39,19 +39,17 @@ const MainLayout = () => {
             <Context.Provider value={{
                 usersStore: {
                     allUsers: users,
-                    setFavouriteUser: (obg: IUserModel) => setFavouriteUser(obg)
+                    setFavouriteUser: (obg: IUserModel) => setFavouriteUser(obg),
+                    favouriteUser: favouriteUserState,
                 },
                 postsStore: {
                     allPosts: posts,
                     setFavouritePost: (obg:IPostModel)=> setFavouritePost(obg),
+                    favouritePost: favouritePostState,
                 },
                 commentsStore: {
                     allComments: comments,
-                    setFavouriteComment: (obg:ICommentModel)=>setFavouriteComment(obg)
-                },
-                favourites:{
-                    favouriteUser: favouriteUserState,
-                    favouritePost: favouritePostState,
+                    setFavouriteComment: (obg:ICommentModel)=>setFavouriteComment(obg),
                     favouriteComment: favouriteCommentState
                 }
 
