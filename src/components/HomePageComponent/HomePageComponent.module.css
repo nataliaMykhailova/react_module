@@ -1,0 +1,29 @@
+.homeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeContainer div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeContainer div a{
+    text-decoration: none;
+    color: darkcyan;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.homeContainer div a:hover{
+    color: forestgreen;
+    font-size: 35px;
+}
+.favourite{
+    margin: 0;
+    padding: 5px;
+    background-color: lightblue;
+    text-align: center;
+}

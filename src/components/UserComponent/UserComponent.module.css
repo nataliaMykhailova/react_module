@@ -1,0 +1,23 @@
+.user{
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.user h1{
+    color: darkslateblue;
+    font-weight: bold;
+}
+.user>h2{
+    color: olive;
+}
+.user button{
+    border: none;
+    box-shadow: -1px 3px 52px 4px rgba(31,94,219,1);
+}
+.user button:hover{
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.header{
+    height: 12vh;
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.header a:hover{
+    font-size: 33px;
+    color: forestgreen;
+
+}

@@ -1,0 +1,21 @@
+.comment{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comment p{
+    max-width: 80%;
+    text-align: center;
+}
+.comment button{
+    margin: 10px;
+    border: none;
+    box-shadow: -1px 2px 21px 3px rgba(44,26,163,1);
+}
+.comment button:hover{
+    font-weight: bold;
+}

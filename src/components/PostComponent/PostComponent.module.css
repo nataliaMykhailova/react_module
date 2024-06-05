@@ -1,0 +1,21 @@
+.post{
+    margin: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post p{
+    max-width: 80%;
+    text-align: center;
+}
+.post button{
+    margin: 10px;
+    border: none;
+    box-shadow: -1px 2px 21px 3px rgba(150,131,24,1);
+}
+.post button:hover{
+    font-weight: bold;
+}
