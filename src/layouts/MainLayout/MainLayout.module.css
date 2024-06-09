@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.outlet {
+    flex-grow: 1;
+    margin-right: 25%;
+    margin-top: 12vh;
+}

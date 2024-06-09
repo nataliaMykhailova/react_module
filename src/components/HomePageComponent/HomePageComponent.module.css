@@ -1,0 +1,22 @@
+.homePage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-family:"Dancing Script", cursive;
+    font-size: 60px;
+    height: 80vh;
+
+}
+.homePage a{
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 10px 150px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.homePage a:hover{
+    border: 1px solid silver;
+    font-size: 65px;
+}
