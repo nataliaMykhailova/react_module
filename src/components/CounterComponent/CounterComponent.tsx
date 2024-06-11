@@ -4,8 +4,7 @@ import {
     decrement,
     decrementByAmount,
     increment,
-    incrementByAmount,
-    reset,
+    incrementByAmount, reset,
     useAppDispatch,
     useAppSelector
 } from "../../redux/store";
