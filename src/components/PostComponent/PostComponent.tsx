@@ -1,7 +1,8 @@
 import React, {FC} from 'react';
+
 import {IPostModel} from "../../models/IPostModel";
-import css from './PostComponent.module.css'
 import {useStore} from "../../context/ContextProvider";
+import css from './PostComponent.module.css'
 interface IProps{
     post:IPostModel,
     children?: React.ReactNode

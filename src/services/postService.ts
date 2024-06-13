@@ -1,4 +1,5 @@
 import {AxiosResponse} from "axios";
+
 import {IPostModel} from "../models/IPostModel";
 import {apiService} from "./apiService";
 import {urls} from "../constants/urls";

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import UsersPostsComponent from "../../components/UsersPostsComponent/UsersPostsComponent";
 
 const UsersPostsPage = () => {

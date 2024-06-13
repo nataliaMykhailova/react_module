@@ -1,7 +1,8 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
+
 import css from './Sidebar.module.css'
 import {useStore} from "../../context/ContextProvider";
-import {NavLink} from "react-router-dom";
 
 const SidebarComponent = () => {
     const {
