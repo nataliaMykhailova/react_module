@@ -1,0 +1,32 @@
+.postDetails{
+    margin: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.postDetails h3{
+    margin: 0;
+}
+.postDetails p{
+    max-width: 80%;
+    text-align: center;
+}
+.postDetails button{
+    margin: 10px;
+    border: none;
+    box-shadow: -1px 2px 21px 3px rgba(150,131,24,1);
+    font-family: "Dancing Script", cursive;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 5px;
+}
+.postDetails button:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
